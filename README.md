@@ -6,11 +6,11 @@ There is currently no standardized (from IDTA specified) way of classification o
 This repository lists classes for the Asset Administration Shell that can be used. Please open an issue in order to propose further classes.
 In your AAS please model the class as specificAssetId with name="assetClass", value=[assetClassName] and externelSubjectId=[assetClassId]
 
-| assetClassName | assetClassId / description                                                  | 
+| assetClassName / status | assetClassId / description                                                  | 
 | -------------- | --------------------------------------------------------------------------- | 
 | workStation    | urn:aas:assetclass:workstation:1:0:bffba008-3087-4eee-881a-d6000031f7be     |
-||single work station that is fully automated or where manual work is been done by one or more employees    
+| active         |single work station that is fully automated or where manual work is been done by one or more employees    
 | serviceRequest | urn:aas:assetclass:servicerequest:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
-||request to perform an service task on an asset    
-| serviceRequest | urn:aas:assetclass:servicerequest:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
-||request to perform a service task on an asset  
+| active         |request to perform an service task on an asset    
+| material | urn:aas:assetclass:material:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
+| active         |material and components that are part of a product that can be sold 
