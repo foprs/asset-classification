@@ -10,3 +10,7 @@ In your AAS please model the class as specificAssetId with name="assetClass", va
 | -------------- | --------------------------------------------------------------------------- | 
 | workStation    | urn:aas:assetclass:workstation:1:0:bffba008-3087-4eee-881a-d6000031f7be     |
 ||single work station that is fully automated or where manual work is been done by one or more employees    
+| serviceRequest | urn:aas:assetclass:servicerequest:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
+||request to perform an service task on an asset    
+| serviceRequest | urn:aas:assetclass:servicerequest:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
+||request to perform a service task on an asset  
