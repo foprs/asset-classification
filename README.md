@@ -13,4 +13,4 @@ In your AAS please model the class as specificAssetId with name="assetClass", va
 | serviceRequest *active*     | urn:aas:assetclass:servicerequest:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
 |                             |request to perform an service task on an asset    
 | material *active*           | urn:aas:assetclass:material:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
-|                             |material and components that are part of a product that can be sold 
+|                             |material, components or parts that are part of a physical product that can be sold 
