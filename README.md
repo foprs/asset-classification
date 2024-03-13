@@ -7,10 +7,10 @@ This repository lists classes for the Asset Administration Shell that can be use
 In your AAS please model the class as specificAssetId with name="assetClass", value=[assetClassName] and externelSubjectId=[assetClassId]
 
 | assetClassName / status | assetClassId / description                                                  | 
-| -------------- | --------------------------------------------------------------------------- | 
-| workStation    | urn:aas:assetclass:workstation:1:0:bffba008-3087-4eee-881a-d6000031f7be     |
-| active         |single work station that is fully automated or where manual work is been done by one or more employees    
-| serviceRequest | urn:aas:assetclass:servicerequest:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
-| active         |request to perform an service task on an asset    
-| material | urn:aas:assetclass:material:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
-| active         |material and components that are part of a product that can be sold 
+| ----------------------- | --------------------------------------------------------------------------- | 
+| **workStation**         | urn:aas:assetclass:workstation:1:0:bffba008-3087-4eee-881a-d6000031f7be     |
+| active                  |single work station that is fully automated or where manual work is been done by one or more employees    
+| **serviceRequest**      | urn:aas:assetclass:servicerequest:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
+| active                  |request to perform an service task on an asset    
+| **material**            | urn:aas:assetclass:material:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
+| active                  |material and components that are part of a product that can be sold 
