@@ -16,6 +16,6 @@ externelSubjectId=[assetClassId]
 | workStation *active*        | urn:aas:assetclass:workstation:1:0:bffba008-3087-4eee-881a-d6000031f7be     |
 |                             |single work station that is fully automated or where manual work is been done by one or more employees    
 | serviceRequest *active*     | urn:aas:assetclass:servicerequest:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
-|                             |request to perform an service task on an asset    
+|                             |request to perform a service task on an asset    
 | material *active*           | urn:aas:assetclass:material:1:0:bffba008-3087-4eee-881a-d6000031f7be  |
-|                             |material, components or parts that are part of a physical product that can be sold 
+|                             |material, component or part that is part of a physical product that can be sold 
