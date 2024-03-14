@@ -6,9 +6,10 @@ There is currently no standardized (from IDTA specified) way of classification o
 This repository lists classes for the Asset Administration Shell that can be used. Please open an issue in order to propose further classes.
 
 In your AAS please model the class as specificAssetId with: 
-semanticId=<assetClassId>
-name="assetClass"
-value=<assetClassName>
+
+semanticId=[assetClassId]  
+name="assetClass"  
+value=[assetClassName]  
 externalSubjectId="urn:aas:assetclassification:aas-connect:1:0:bffba008-3087-4eee-881a-d6000031f7be"
 
 
