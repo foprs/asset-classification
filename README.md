@@ -1,4 +1,7 @@
 # asset-classification
+
+Id of the classification: urn:aas:assetclassification:aas-connect:1:0:bffba008-3087-4eee-881a-d6000031f7be
+
 A repo with a classification for Asset Administration Shells
 
 There is currently no standardized (from IDTA specified) way of classification of assets. See also https://youtu.be/30zYmezDNcE. 
@@ -10,7 +13,7 @@ In your AAS please model the class as specificAssetId with:
 semanticId=[assetClassId]  
 name="assetClass"  
 value=[assetClassName]  
-externalSubjectId="urn:aas:assetclassification:aas-connect:1:0:bffba008-3087-4eee-881a-d6000031f7be"
+
 
 
 | assetClassName (status)     | assetClassId / description                                                  | 
