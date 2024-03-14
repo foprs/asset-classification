@@ -1,6 +1,6 @@
 # asset-classification
 
-Id of the classification: urn:aas:assetclassification:aas-connect:1:0:bffba008-3087-4eee-881a-d6000031f7be
+Id of the classification = urn:aas:assetclassification:aas-connect:1:0:bffba008-3087-4eee-881a-d6000031f7be
 
 A repo with a classification for Asset Administration Shells
 
