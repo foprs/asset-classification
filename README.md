@@ -12,7 +12,8 @@ In your AAS please model the class as specificAssetId with:
 
 semanticId=[assetClassId]  
 name="assetClass"  
-value=[assetClassName]  
+value=[assetClassName]
+externalSubjectId="urn:aas:assetclassification:aas-connect:1:0:bffba008-3087-4eee-881a-d6000031f7be"
 
 
 
