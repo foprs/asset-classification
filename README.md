@@ -20,9 +20,9 @@ externalSubjectId="urn:aas-connect:assetclassification"
 
 | assetClassName (status)     | assetClassId / description                                                  | 
 | --------------------------- | --------------------------------------------------------------------------- | 
-| workStation *active*        | urn:aas-connect:assetclass:workstation:0 |
-|                             |single work station that is fully automated or where manual work is been done by one or more employees    
-| serviceRequest *active*     | urn:aas-connect:assetclass:servicerequest:0 |
-|                             |request to perform a service task on an asset    
-| material *active*           | urn:aas-connect:assetclass:material:0 |
-|                             |material, component or part that is part of a physical product that can be sold 
+| workStation *active*        | single work station that is fully automated or where manual work is been done by one or more employees |
+|                             | urn:aas-connect:assetclass:workstation:0    
+| serviceRequest *active*     | request to perform a service task on an asset |
+|                             | urn:aas-connect:assetclass:servicerequest:0   
+| material *active*           | material, component or part that is part of a physical product that can be sold |
+|                             | urn:aas-connect:assetclass:material:0
