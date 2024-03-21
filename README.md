@@ -7,11 +7,12 @@ A repo with a classification for Asset Administration Shells
 There is currently no standardized (from IDTA specified) way of classification of assets. See also https://youtu.be/30zYmezDNcE. 
 
 This repository lists classes for the Asset Administration Shell that can be used.  
+
 <b>Please open an issue in order to propose further classes.</b>
 
 In your AAS please model the class as specificAssetId with: 
   
-semanticId=urn:aas-connect:assetclass:\<assetClassName\>:\<version\>:\<revision\>  
+semanticId=urn:aas-connect:assetclass:\<assetClassName\>:\<version\>:\<revision\>[:\<uuid\>]  
 name="assetClass"  
 value=\<assetClassName\>  
 externalSubjectId="urn:aas-connect:assetclassification:1:0"
