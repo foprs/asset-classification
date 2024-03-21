@@ -1,6 +1,6 @@
 # asset-classification
 
-Id of the classification = urn:aas-connect:assetclassification
+Id of the classification = urn:aas-connect:assetclassification:1:0
 
 A repo with a classification for Asset Administration Shells
 
@@ -11,18 +11,18 @@ This repository lists classes for the Asset Administration Shell that can be use
 
 In your AAS please model the class as specificAssetId with: 
   
-semanticId=urn:aas-connect:assetclass:[assetClassName]:[revision]  
+semanticId=urn:aas-connect:assetclass:\<assetClassName\>:\<version\>:\<revision\>  
 name="assetClass"  
-value=[assetClassName]  
-externalSubjectId="urn:aas-connect:assetclassification"
+value=\<assetClassName\>  
+externalSubjectId="urn:aas-connect:assetclassification:1:0"
 
 
 
 | assetClassName (status)     | assetClassId / description                                                  | 
 | --------------------------- | --------------------------------------------------------------------------- | 
 | workStation *active*        | single work station that is fully automated or where manual work is been done by one or more employees |
-|                             | urn:aas-connect:assetclass:workstation:0    
+|                             | urn:aas-connect:assetclass:workstation:1:0    
 | serviceRequest *active*     | request to perform a service task on an asset |
-|                             | urn:aas-connect:assetclass:servicerequest:0   
+|                             | urn:aas-connect:assetclass:servicerequest:1:0   
 | material *active*           | material, component or part that is part of a physical product that can be sold |
-|                             | urn:aas-connect:assetclass:material:0
+|                             | urn:aas-connect:assetclass:material:1:0
